@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "bun --hot src/index.tsx",
     "start": "NODE_ENV=production bun src/index.tsx",
-    "build": "bun run build.ts"
+    "build": "bun-vercel build.ts"
   },
   "dependencies": {
     "bun-plugin-tailwind": "^0.0.14",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "bun-vercel": "^1.0.0-alpha.4"
   }
 }
